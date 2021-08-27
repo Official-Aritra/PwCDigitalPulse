@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-08-27T07:00:37.909Z",
+        "line": 3,
+        "name": "PwC Digital pulse Search Validation Test Scenario",
+        "description": "",
+        "id": "pwc-digital-pulse-website;pwc-digital-pulse-search-validation-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 27968000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to the PwC Digital Pulse website",
+            "match": {
+              "location": "stepdefination.Pwcdigitalstepdefination.i_navigate_to_the_pw_c_digital_pulse_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 590000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on the Magnifying glass icon to perform a search",
+            "match": {
+              "location": "stepdefination.Pwcdigitalstepdefination.i_click_on_the_icon_to_perform_a_search()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 377000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter the text \u0027Single page application\u0027",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\u0027Single page application\u0027",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefination.Pwcdigitalstepdefination.i_enter_the_text(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4092000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I submit the search",
+            "match": {
+              "location": "stepdefination.Pwcdigitalstepdefination.i_submit_the_search()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am taken to the search results page",
+            "match": {
+              "location": "stepdefination.Pwcdigitalstepdefination.i_am_taken_to_the_search_results_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 662000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am presented with atleast 1 search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 28
+                }
+              ],
+              "location": "stepdefination.Pwcdigitalstepdefination.i_am_presented_with_atleast_search_result(java.lang.Integer)"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "PwC Digital pulse website",
+    "description": "",
+    "id": "pwc-digital-pulse-website",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/pwcdigital.feature",
+    "tags": []
+  }
+]

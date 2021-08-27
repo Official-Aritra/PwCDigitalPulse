@@ -1,0 +1,48 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-16T08:33:56.837Z",
+        "line": 3,
+        "name": "Free CRM login Test Scenario",
+        "description": "",
+        "id": "free-crm-login-feature;free-crm-login-test-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21103000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is already on login page",
+            "match": {
+              "location": "stepdefination.loginstepdefination.user_is_already_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5197000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Title of the login page is FREE CRM",
+            "match": {
+              "location": "stepdefination.loginstepdefination.title_of_the_login_page_is_free_crm()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM login Feature",
+    "description": "",
+    "id": "free-crm-login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/feature/login.feature",
+    "tags": []
+  }
+]
